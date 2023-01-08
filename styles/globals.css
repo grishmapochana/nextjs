@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .updateButton {
+    background: linear-gradient(
+      270deg,
+      #f0899e 0%,
+      #9617d2 24.48%,
+      #4e0fff 51.04%,
+      #2c60fd 75%,
+      #30f0f6 100%
+    );
+    box-shadow: 0px 0px 10px rgba(13, 0, 255, 0.3);
+    border-radius: 40px;
+  }
+}
